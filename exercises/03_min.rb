@@ -1,4 +1,9 @@
 def min(numbers)
+  if numbers == []
+    return nil
+  else
+    numbers.min
+  end
 end
 
 # ------ code above this line ------

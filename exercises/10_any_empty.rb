@@ -1,4 +1,7 @@
+def any_empty?(strings)
+  strings
 
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'

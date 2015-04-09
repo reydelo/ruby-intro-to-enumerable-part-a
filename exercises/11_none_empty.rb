@@ -1,4 +1,5 @@
-
+def none_empty
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'

@@ -1,4 +1,6 @@
-
+def shortest_word(words)
+  words.min { |x,y| x.size <=> y.size }
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'

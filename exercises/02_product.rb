@@ -1,4 +1,9 @@
 def product(numbers)
+  if numbers == []
+    return nil
+  else
+    numbers.inject(1) { |value, number| value * number }
+  end
 end
 
 # ------ code above this line ------

@@ -1,4 +1,17 @@
-
+def group_by_x(input)
+  result = {}
+  input.each do |obj|
+    result[obj[:x]] = []
+  end
+  input.each do |obj|
+    result.each do |key, value|
+      if key == obj[:x]
+        value << obj
+      end
+    end
+  end
+  result
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'

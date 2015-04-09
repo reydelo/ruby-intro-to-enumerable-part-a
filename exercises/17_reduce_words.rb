@@ -1,4 +1,10 @@
-
+def reduce(input)
+  result = ""
+  input.each do |x|
+    result << x
+  end
+  result
+end
 # ------ code above this line ------
 
 require 'rspec/autorun'

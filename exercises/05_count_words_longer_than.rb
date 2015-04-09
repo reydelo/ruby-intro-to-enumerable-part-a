@@ -1,4 +1,7 @@
 def count_words_longer_than(words, length)
+  x = words.map {|word| word.length }
+  x.delete_if {|num| num <= length}
+  x.count
 end
 
 # ------ code above this line ------
